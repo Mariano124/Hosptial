@@ -1,0 +1,82 @@
+.CARATULA {
+	width: 100%;
+}
+.CONTACTO {
+	width: 100%;
+}
+.mano {
+	position: absolute;
+	left: 1400px;
+	top: 1900px;
+	height: 2000px;
+}
+.nuevo {
+	width: 1400px;
+	position: absolute;
+	top: 2400px;
+	left: 3000px;
+}
+@media (max-width: 1800px){
+	.mano {
+	position: absolute;
+	left: 300px;
+	top: 10px;
+	height: 400px;
+}
+.mano2 {
+	position: absolute;
+	left: 300px;
+	top: 550px;
+	height: 400px;
+}
+.FIJO {
+	position: absolute;
+	left: 690px;
+	top: 600px;
+	height: 240px;
+
+}
+.nuevo {
+	width: 400px;
+	position: absolute;
+	top: 120px;
+	left: 600px;
+}
+@media (max-width: 1000px){
+	.CARATULA {
+	width: 1450px;
+}
+.CONTACTO {
+	width: 100%;
+}
+
+
+.mano {
+	position: absolute;
+	left: 200px;
+	top: 10px;
+	height: 400px;
+}
+.nuevo {
+	width: 400px;
+	position: absolute;
+	top: 100px;
+	left: 500px;
+}
+
+.mano2 {
+	position: absolute;
+	left: 200px;
+	top: 400px;
+	height: 400px;
+}
+.FIJO {
+	position: absolute;
+	left: 550px;
+	top: 440px;
+	height: 240px;
+
+}
+body {
+    background: rgb(219, 255, 172);
+}

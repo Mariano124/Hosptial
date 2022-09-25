@@ -1,0 +1,64 @@
+body {
+    background: rgb(219, 255, 172);
+}
+.menu {
+    height: auto;
+    width: 400px;
+    margin: 100px;
+}
+.titulo::before {
+    font-size: 100px;
+    margin: 20px;
+    position: absolute;
+    left: 200px;
+    content: 'ALBERGUE HOSPITALARIO "MONSEÑOR ENRIQUE ANGELELLI"';
+}
+.letra {
+    font-size: 60px;
+}
+table {
+    position: absolute;
+    top: 900px;
+    background: rgb(255, 227, 227);
+}
+.letra1::before {
+    content: "PAGINA";
+    font-size: 60px;
+    margin-left: 190px;
+}
+.letra2::before {
+    content: "EMPLEADOS";
+    font-size: 60px;
+    margin-left: 150px;
+}
+.letra3::before {
+    content: "CONTACTO";
+    font-size: 60px;
+    margin-left: 150px;
+}
+.letra4::before {
+    content: "UBICACIÓN";
+    font-size: 60px;
+    margin-left: 150px;
+}
+.letra5::before {
+    content: "BIOGRAFIA DE MONSEÑOR ENRIQUE ANGELELLI";
+    font-size: 60px;
+    margin-left: 0px;
+}
+.letra6::before {
+    content: "REQUISITOS";
+    font-size: 60px;
+    margin-left: 120px;
+}    
+.credito::before {
+    position: absolute;
+    top: 3500px;
+    content: "Creado por: Maldonado Mariano Alexis";
+}
+.ALBERGUE {
+    height: 1100px;
+}
+.imagenpag {
+    height: 700px;
+}
